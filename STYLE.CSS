@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+} /* Define a cor de fundo da página */
+
+h1{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}/* Define a cor de fundo do cabeçalho */
+
+nav{
+    background-color: #0055a5;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}/* Define a cor de fundo da barra de navegação e a torna fixa no topo da página */
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}/* Remove os marcadores da lista e define margens e preenchimentos para a barra de navegação */
+
+nav li{
+    display: inline;
+    margin-right: 15px;
+}/* Define os itens da barra de navegação como inline e adiciona espaçamento entre eles */
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}/* Define a cor do texto dos links da barra de navegação e remove o sublinhado */
+
+nave a:hover{
+    text-decoration: underline;
+    color:yellow
+}/* Adiciona um efeito de sublinhado e muda a cor do texto para amarelo quando o mouse passa sobre os links da barra de navegação */
+
+section{
+    width: 80%;
+    padding: 20px;
+    margin: 25px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}/* Define a largura, preenchimento, margem, cor de fundo, borda arredondada e sombra para as seções da página */
+
+h2{
+    color: #003366;
+    margin-top: 0;
+}/* Define a cor do texto e remove a margem superior dos títulos das seções */
+
+form{
+    display: flex;
+    flex-direction: column;  
+}/* Define o formulário como um contêiner flexível e organiza os elementos em uma coluna */
+
+label{
+    margin-top: 10px;
+    font-weight: bold;
+}/* Adiciona uma margem superior e define o peso da fonte para os rótulos dos campos do formulário */
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}/* Define o estilo para os campos de entrada e área de texto */
+
+textarea{
+    resize: vertical;
+}/* Permite que a área de texto seja redimensionada verticalmente */
+
+button{
+    width: 150px;
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    box-sizing: border-box;
+
+}/* Define o estilo para o botão de envio do formulário */
+
+textarea{
+    resize: vertical;
+}/* Permite que a área de texto seja redimensionada verticalmente */
+
+button{
+    width: 150px;
+    background-color: #0055a5;
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-sizing: border-box;
+}/* Define o estilo para o botão de envio do formulário */
+
+button:hover{
+    background-color: #003366;
+}/* Adiciona um efeito de mudança de cor quando o mouse passa sobre o botão de envio do formulário */
+
+#mensagemSucesso{
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+    background-color: #d4edda;
+    display: none;
+    font-weight: bold;
+}/* Define o estilo para a mensagem de sucesso após o envio do formulário, incluindo cor, peso da fonte, margens, preenchimento, borda e cor de fundo. A mensagem é inicialmente oculta. */
